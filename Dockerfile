@@ -8,4 +8,3 @@ RUN cd ./ && yarn
 COPY ./ ./
 
 CMD [ "node", "/app" ]
-EXPOSE 3001
