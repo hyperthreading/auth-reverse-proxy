@@ -1,0 +1,13 @@
+{
+  "name": "auth-proxy",
+  "version": "0.1.0",
+  "description": "Reverse HTTP Proxy server with authentication policy for serving private static content",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "passport": "^0.4.0"
+  }
+}
